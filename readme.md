@@ -54,6 +54,10 @@ Save it. The `[TAGame.MatchStatsExporter_TA]` section header is required — `[A
 
 > **Important:** The port (49123) only opens once you are inside an active match. It will not be open in menus, training, or the lobby. Run `netstat -ano | findstr 49123` while in a live match to confirm it shows `LISTENING`.
 
+#### EXTRA STUFF FOR BETTER PERFORMANCE
+- enable borderless window in rocket league
+- disable mute audio on unfocused in audio settings
+
 ### Step 2 — Set your in-game name
 
 Open `config.py` and set your exact Rocket League display name:
