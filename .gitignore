@@ -1,0 +1,42 @@
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-wheel-metadata/
+
+# ── Virtual environments ──────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── RL Coach data (personal — do not commit) ──────────────────────
+data/players.json
+data/self_profile.json
+data/match_history.json
+
+# ── Logs ──────────────────────────────────────────────────────────
+*.log
+rl_coach.log
+
+# ── OS ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Zip artifacts ─────────────────────────────────────────────────
+*.zip
